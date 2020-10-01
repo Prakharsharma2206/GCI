@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -11,7 +11,7 @@ void p1(int num)
 
         cout<<endl;
     }
-    
+    return;
 }
 
 void p2(int num)
@@ -22,6 +22,7 @@ void p2(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p3(int num)
@@ -32,6 +33,7 @@ void p3(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p4(int num)
@@ -42,6 +44,7 @@ void p4(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p5(int num)
@@ -52,17 +55,21 @@ void p5(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
-// void p5(int num)
-// {
-//     for(int i=num;i>0;--i)
-//     {
-//         for(int j=0;  j<i ; ++j)
-//         cout<<i-j<<"\t";
-//         cout<<endl;
-//     }
-// }
+/*
+void p5(int num)
+{
+    for(int i=num;i>0;--i)
+    {
+        for(int j=0;  j<i ; ++j)
+        cout<<i-j<<"\t";
+        cout<<endl;
+    }
+    return;
+}
+*/
 
 void p6(int num)
 {
@@ -72,8 +79,8 @@ void p6(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
-
 
 void p7(int num)
 {
@@ -83,8 +90,8 @@ void p7(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
-
 
 void p8(int num)
 {
@@ -94,6 +101,7 @@ void p8(int num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p9(int num)
@@ -104,6 +112,7 @@ void p9(int num)
         cout<<i<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p10(int num)
@@ -114,6 +123,7 @@ void p10(int num)
         cout<<i<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p11(int num=7)
@@ -124,6 +134,7 @@ void p11(int num=7)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p12(int num)
@@ -141,6 +152,7 @@ void p12(int num)
         }
         cout<<endl;
     }
+    return;
 }
 
 void p13(int num)
@@ -151,6 +163,7 @@ void p13(int num)
         cout<<i<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p14(int num)
@@ -161,6 +174,7 @@ void p14(int num)
         cout<<i<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p15(int num)
@@ -179,6 +193,7 @@ void p15(int num)
         cout << endl;
         
     }
+    return;
 }
 
 void p16(int num)
@@ -189,6 +204,7 @@ void p16(int num)
         cout<< j%2 <<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p17(int num)
@@ -205,6 +221,7 @@ void p17(int num)
         cout<<k;
         cout<<endl;
     }
+    return;
 }
 
 void p18(int  num)
@@ -215,23 +232,23 @@ void p18(int  num)
         cout<<j<<"\t";
         cout<<endl;
     }
+    return;
 }
 
 void p19(int num)
 {
-
+    return;
 }
 
 void p20(int num)
 {
-
+    return;
 }
 
 void solve()
 {
     int n=5;
     
-
     // p1(n);
     // p2(n);
     // p3(n);
@@ -246,7 +263,9 @@ void solve()
     // p12(n);
     // p13(n);
     // p14(n);
+    
     p15(n);
+    return;
 }
 
 int main()
